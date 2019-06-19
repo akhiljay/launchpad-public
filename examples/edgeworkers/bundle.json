@@ -1,0 +1,6 @@
+{
+    "edgeworker-version": "1.0",
+    "description" : "Mission Lab",
+    "bundle-version" : 1,
+    "api-version" : "0.3"
+}

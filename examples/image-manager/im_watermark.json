@@ -1,0 +1,22 @@
+{
+  "id": "watermark",
+  "isOlderPolicy": false,
+  "version": 1,
+  "dateCreated": "2018-07-24 02:17:42+0000",
+  "user": "jgarza",
+  "transformations": [
+    {
+      "transformation": "Composite",
+      "gravity": "NorthWest",
+      "image": {
+        "type": "URL",
+        "url": "https://www.urbancrawlapp.com/img/watermark.png"
+      },
+      "placement": "Over",
+      "scale": 0.2,
+      "scaleDimension": "width"
+    }
+  ],
+  "output": {},
+  "video": false
+}

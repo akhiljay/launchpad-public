@@ -1,0 +1,26 @@
+{
+  "name": "new EdgeWorkers",
+  "children": [],
+  "behaviors": [
+    {
+      "name": "edgeWorker",
+      "options": {
+        "enabled": true,
+        "edgeWorkerId": "3014"
+      }
+    }
+  ],
+  "criteria": [
+    {
+      "name": "path",
+      "options": {
+        "matchOperator": "MATCHES_ONE_OF",
+        "values": [
+          "/edgeworkers"
+        ],
+        "matchCaseSensitive": false
+      }
+    }
+  ],
+  "criteriaMustSatisfy": "all"
+}
